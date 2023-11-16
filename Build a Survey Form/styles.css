@@ -1,0 +1,147 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(215,177,210,1) 26%, rgba(194,180,217,1) 49%, rgba(171,184,225,1) 75%, rgba(148,187,233,1) 100%);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #survey-form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #description {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .input-text,
+  .input-radio,
+  .input-checkbox,
+  .input-textarea,
+  .form-control,
+  .select,
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-text:focus,
+  .input-radio:focus,
+  .input-checkbox:focus,
+  .input-textarea:focus,
+  .form-control:focus,
+  .select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .input-radio,
+  .input-checkbox {
+    margin-right: 8px;
+  }
+  
+  .input-textarea {
+    resize: vertical;
+  }
+  
+  .select {
+    appearance: none;
+    background: #ecf0f1;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .clue {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Different Color for Section */
+  /* Personal Information Section */
+  #title,
+  #description,
+  #name-label,
+  #email-label,
+  #number-label,
+  #name,
+  #email,
+  #number {
+    color: #333;
+  }
+  
+  /* Current Role Section */
+  #dropdown,
+  #dropdown option {
+    color: #27ae60;
+  }
+  
+  /* Recommendation Section */
+  .input-radio,
+  .input-checkbox,
+  .form-group p {
+    color: #e67e22;
+  }
+  
+  /* Favorite Feature Section */
+  #most-like,
+  #most-like option {
+    color: #9b59b6;
+  }
+  
+  /* Improvement Section */
+  .input-checkbox[name="prefer"],
+  .form-group p:nth-last-child(2) {
+    color: #e74c3c;
+  }
+  
+  /* Comments Section */
+  #comments {
+    color: #555;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    #survey-form {
+      margin: 10px;
+      padding: 20px;
+    }
+  }
+  
