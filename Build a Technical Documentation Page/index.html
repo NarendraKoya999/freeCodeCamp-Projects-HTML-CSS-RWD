@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>JavaScript-ES6+ Documentation</h1>
+        </header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+            <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+            <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+            <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+            <li><a class="nav-link" href="#Constants">Constants</a></li>
+            <li><a class="nav-link" href="#Data_types">Data types</a></li>
+            <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
+            <li><a class="nav-link" href="#while_statement">while statement</a></li>
+            <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <p>
+                JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
+                language. Inside
+                of it is a standard library of objects and methods for
+                programming
+            </p>
+            <p>One major distinguishing
+                characteristic of JavaScript is its syntax rather than its hardware or software environment.
+            </p>
+        </section>
+
+        <section class="main-section" id="What_you_should_already_know">
+            <header>
+                <h2>What you should already know</h2>
+            </header>
+            <p>
+                This guide assumes you have the following basic background:
+
+                A general understanding of
+                JavaScript
+                If you are new to programming, you may find this guide
+                confusing at first. You may find this guide
+                confusing at first. You may find this guide
+                confusing at first.
+            </p>
+        </section>
+
+        <section class="main-section" id="JavaScript_and_Java">
+            <header>
+                <h2>JavaScript and Java</h2>
+            </header>
+            <p>
+                JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
+                language resembles Java
+                but does not have Java's static typing and strong type checking.
+            </p>
+            <p>
+                JavaScript is a high-level, often just-in-time compiled language that adds interactivity
+                to your website.
+            </p>
+
+            <p>
+                JavaScript is easy to learn because you can write it right away using your favorite IDE
+            </p>
+
+            <p>
+                For more information on JavaScript please visit :
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript
+                </a>
+            </p>
+
+            <p>
+                For more information on Java please visit
+                <a href="https://www.java.com/en/" target="_blank">https://www.java.com/en/
+                </a>
+            </p>
+
+            <p>
+                For a quick introduction to JavaScript please visit
+                <a href="https://www.w3schools.com/js/" target="_blank">https://www.w3schools.com/js/
+                </a>
+            </p>
+        </section>
+
+        <section class="main-section" id="Hello_world">
+            <header>
+                <h2>Hello world</h2>
+            </header>
+            <p>
+                To get started with writing JavaScript, open the Scratchpad and write your first "Hello world"
+                JavaScript code
+            </p>
+            <code>
+                function greetMe(yourName) { alert("Hello " + yourName); }
+                greetMe("World");
+            </code>
+        </section>
+
+        <section class="main-section" id="Variables">
+            <header>
+                <h2>Variables</h2>
+            </header>
+            <p>
+                You use variables as symbolic names for values in your application. The names of variables
+                can be used to store values for later use.
+            </p>
+            <code>
+                var x = 10;
+            </code>
+
+        </section>
+
+        <section class="main-section" id="Declaring_variables">
+            <header>
+                <h2>Declaring variables</h2>
+            </header>
+            <p>
+                You can declare variables on two different occasions. In the first case, the variable is declared upon
+                assignment of a value to it.
+            </p>
+            <code>
+                var x = 10;
+            </code>
+
+        </section>
+
+        <section class="main-section" id="Variable_scope">
+            <header>
+                <h2>Variable scope</h2>
+            </header>
+            <p>
+                When you declare a variable outside of any function, it is called a global variable, because it is
+                available to any part of the program.
+            </p>
+            <p>
+                When you declare a variable within a function, it is called a local variable, because it is available
+                only within that function.
+            </p>
+
+            <code>
+                if (true) {
+                    var x = 10;
+                    }
+                console.log(x);
+                // Prints "10"
+            </code>
+
+            <code>
+                if (true) {
+                    var x = 10;
+                    }
+                // ReferenceError: x is not defined
+            </code>
+
+            <code>
+                if (true) {
+                    let x = 10;
+                    }
+                console.log(x);
+                // Prints "10"
+            </code>
+        </section>
+
+        <section class="main-section" id="Global_variables">
+            <header>
+                <h2>Global variables</h2>
+            </header>
+            <p>
+                Global variables are in fact properties of the global object. In web pages the global object is
+                window, so you can set and access global variables using the window.variable syntax.
+            </p>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+            </code>
+
+            <code>
+                carName;
+                // Prints "Volvo"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                carName;
+                // Prints "Volvo"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                window.carName;
+                // Prints "Volvo"
+                window.x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete carName;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.carName;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                carName;
+                // Prints "Volvo"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                delete window.carName;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                delete window.y;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                delete window.y;
+                delete carName;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                delete window.y;
+                delete window.carName;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+
+            <code>
+                var carName = "Volvo";
+                var x = 10;
+                delete window.x;
+                delete window.y;
+                delete window.carName;
+                delete x;
+                carName;
+                // Prints "undefined"
+                x;
+                // Prints "10"
+            </code>
+        </section>
+
+        <section class="main-section" id="Constants">
+            <header>
+                <h2>Constants</h2>
+            </header>
+            <p>
+                You can create a read-only, named JavaScript object. In other words, you can create a constant with the
+                const keyword. You cannot reassign the value of a constant declared with const.
+            </p>
+
+            <code>
+                const cars = ["Saab", "Volvo", "BMW"];
+            </code>
+
+            <code>
+                cars[0] = "Opel";
+            </code>
+
+            <code>
+                cars;
+                // Prints ["Opel", "Volvo", "BMW"]
+            </code>
+
+            <code>
+                const cars = ["Saab", "Volvo", "BMW"];
+                cars[0] = "Opel";
+                cars;
+                // Prints ["Opel", "Volvo", "BMW"]
+            </code>
+
+        </section>
+
+        <section class="main-section" id="Data_types">
+            <header>
+                <h2>Data types</h2>
+            </header>
+            <p>
+                There are four data types in JavaScript:
+
+            <ul>
+                <li>
+                    Number
+                </li>
+                <li>
+                    String
+                </li>
+                <li>
+                    Boolean
+                </li>
+                <li>
+                    Null
+                </li>
+                <li>
+                    Undefined
+                </li>
+                <li>
+                    Symbol
+                </li>
+            </ul>
+
+            A JavaScript function is a block of code designed to perform a particular task.
+
+            <ul>
+                <li>
+                    Function
+                </li>
+            </ul>
+
+            An object is a collection of properties and methods.
+
+            <ul>
+                <li>
+                    Object
+                </li>
+            </ul>
+
+            An array is a special variable, which can hold more than one value.
+
+            <ul>
+                <li>
+                    Array
+                </li>
+            </ul>
+            </p>
+        </section>
+
+        <section class="main-section" id="if...else_statement">
+            <header>
+                <h2>if...else statement</h2>
+            </header>
+            <p>
+                Use the if...else statement to specify different actions for different conditions.
+            </p>
+
+            <code>
+                if (condition) {
+                    statement_1;
+                    }
+                else {
+                    statement_2;
+                    }
+            </code>
+
+            <code>
+                if (condition) {
+                    statement_1;
+                    }
+                else if (condition) {
+                    statement_2;
+                    }
+                else {
+                    statement_3;
+                    }
+            </code>
+
+            <code>
+                if (condition) {
+                    statement_1;
+                    }
+                else if (condition) {
+                    statement_2;
+                    }
+                else if (condition) {
+                    statement_3;
+                    }
+                else {
+                    statement_4;
+                    }
+            </code>
+
+            <code>
+                if (condition) {
+                    statement_1;
+                    }
+                else if (condition) {
+                    statement_2;
+                    }
+                else if (condition) {
+                    statement_3;
+                    }
+                else if (condition) {
+                    statement_4;
+                    }
+                else {
+                    statement_5;
+                    }
+            </code>
+        </section>
+
+        <section class="main-section" id="while_statement">
+            <header>
+                <h2>while statement</h2>
+            </header>
+            <p>
+                A while statement executes as long as a specified condition is true.
+            </p>
+
+            <code>
+                while (condition) {
+                    statement;
+                    }
+            </code>
+
+            <code>
+                let i = 0;
+                while (i &lt; 10) {
+                    console.log(i);
+                    i++;
+                    }
+            </code>
+        </section>
+
+        <section class="main-section" id="Function_declarations">
+            <header>
+                <h2>Function declarations</h2>
+            </header>
+            <p>
+                A function declaration can be hoisted (hoisted to the top of its scope) or be lazily
+                evaluated.
+            </p>
+            <code>
+                function myFunction(a, b) {
+                    return a * b;
+                    }
+                myFunction(5, 5);
+                // Prints "25"
+            </code>
+        </section>
+
+        <section class="main-section" id="Reference">
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <p>
+            <ul>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">
+                        JavaScript Guide
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank">
+                        JavaScript Reference
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                        JavaScript
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3schools.com/js/" target="_blank">
+                        JavaScript Tutorial
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3schools.com/jsref/default.asp" target="_blank">
+                        JavaScript Reference
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.w3schools.com/js/js_whereto.asp" target="_blank">
+                        JavaScript Where to
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
