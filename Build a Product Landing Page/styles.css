@@ -1,0 +1,226 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Global Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#nav-bar li {
+    margin-right: 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+#nav-bar a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Hero Section Styles */
+#hero {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+#email {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Change to your preferred button color */
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #ffc107; /* Change to your preferred hover color */
+}
+
+/* Features Section Styles */
+#features {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    color: #ffd700; /* Change to your preferred icon color */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#video {
+    width: 100%;
+}
+
+/* Pricing Section Styles */
+#pricing {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px;
+}
+
+.product h2 {
+    color: #ffd700; /* Change to your preferred heading color */
+    margin-top: 20px;
+}
+
+.product ol {
+    list-style: none;
+    padding: 0;
+}
+
+.product li {
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Change to your preferred button color */
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffc107; /* Change to your preferred hover color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Add this style for the hamburger menu icon */
+#menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Hide the navigation menu by default */
+    }
+
+    #nav-bar.active {
+        display: flex; /* Show the navigation menu when active class is added */
+    }
+
+    #menu-icon {
+        display: block; /* Show the hamburger menu icon */
+    }
+
+    #menu-icon:hover {
+        color: #ffd700; /* Change to your preferred hover color */
+    }
+
+    #menu-icon:before {
+        content: '\2630'; /* Unicode character for the hamburger icon */
+    }
+}

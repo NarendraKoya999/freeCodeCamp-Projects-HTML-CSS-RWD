@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                alt="logo">
+        </div>
+
+        <div id="menu-icon"></div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="fas fa-3x fa-fire"></i>
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                purchase.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-3x fa-truck"></i>
+            <h3>Fast Shipping</h3>
+            <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free
+                returns if you are not satisfied.</p>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-3x fa-battery-full"></i>
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                pitch of your instrument.</p>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <iframe id="video" height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+            allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+        <div class="product" id="tenor">
+            <div class="level">Tenor Trombone</div>
+            <h2>$600</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="bass">
+            <div class="level">Bass Trombone</div>
+            <h2>$900</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+
+            <button class="btn">Select</button>
+        </div>
+
+        <div class="product" id="valve">
+            <div class="level">Valve Trombone</div>
+            <h2>$1200</h2>
+            <ol>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum dolor.</li>
+                <li>Lorem ipsum.</li>
+            </ol>
+
+            <button class="btn">Select</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuIcon = document.getElementById('menu-icon');
+            var navBar = document.getElementById('nav-bar');
+
+            menuIcon.addEventListener('click', function () {
+                navBar.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
