@@ -292,3 +292,62 @@ This project is a tribute page dedicated to Dr. Norman Borlaug, a figure renowne
 - **Biographical Timeline**: An informative timeline lists key events and milestones in Dr. Borlaug's life and career.
 - **Inspirational Quote**: A blockquote captures a powerful and inspiring quote attributed to Dr. Borlaug.
 - **External Link**: A footer section includes a link to Dr. Borlaug's Wikipedia page for readers interested in learning more about his life and work.
+
+
+# 19. JavaScript ES6+ Technical Documentation Page
+
+### Description:
+This project is a technical documentation page aimed at providing comprehensive information about JavaScript ES6+ features and concepts. It serves as a resource for developers who want to learn about the latest enhancements and best practices in JavaScript programming. The documentation covers various topics including variable declaration, data types, control flow statements, functions, and more.
+
+### Topics Covered:
+- Introduction
+- What you should already know
+- JavaScript and Java
+- Hello world
+- Variables
+  - Declaring variables
+  - Variable scope
+  - Global variables
+  - Constants
+- Data types
+- if...else statement
+- while statement
+- Function declarations
+- Reference and more...
+
+
+# 20. Personal Portfolio Webpage (In Progress)(Pending)
+
+### Description:
+This project is a personal portfolio webpage aimed at showcasing the skills, projects, and experiences of an individual. It serves as an online resume and portfolio for professionals, students, or anyone looking to display their work to potential employers or clients.
+
+### Sections:
+- About Me
+- Skills
+- Projects
+- Experience
+- Education
+- Contact
+
+### Features:
+- Responsive design for various screen sizes (mobile-friendly)
+- Interactive elements such as buttons, navigation bars, and scroll animations
+- Integration of social media links and contact forms
+- Dynamic content updates for easy maintenance and scalability
+
+### Technologies Used:
+- HTML5
+- CSS3 (including Flexbox or Grid for layout)
+- JavaScript (for interactive features if needed)
+- Optional: Frameworks or libraries like Bootstrap, React.js or jQuery for rapid development
+
+### Design Elements:
+- Clean and modern layout
+- Consistent color scheme and typography
+- Clear navigation structure for easy access to different sections
+- Visual hierarchy to highlight important information
+- Use of images or icons to enhance visual appeal and convey information effectively
+
+### Deployment:
+- Hosting options such as GitHub Pages, Netlify, or Heroku
+- Domain registration for a personalized URL (optional)
