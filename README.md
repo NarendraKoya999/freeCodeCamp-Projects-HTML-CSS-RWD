@@ -1,353 +1,450 @@
-# Responsive Web Design Course - freeCodeCamp (20 Projects)
+<div align="center">
 
-# Live Certification: 
-[Responsive Web Design](https://freecodecamp.org/certification/fcc964aaf79-d74f-4a73-a538-bead74ff9282/responsive-web-design)
+<img src="https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design-0a0a23?style=for-the-badge&logo=freecodecamp&logoColor=white" alt="freeCodeCamp Responsive Web Design"/>
 
-# 1. Balance Sheet Project
+# Responsive Web Design Certification
+### freeCodeCamp · 20 Projects · Fully Certified
 
-### Description:
-The Balance Sheet Project is a web application that generates and displays balance sheets for fictional companies. It provides a clear overview of a company's financial status, including its assets, liabilities, and net worth over multiple years.
+A structured, hands-on curriculum covering modern HTML5, CSS3, accessibility standards,
+and responsive design principles through 20 progressively complex real-world projects.
 
-### Topics Covered:
-- HTML5 and CSS3 for structuring and styling the user interface
-- JavaScript for dynamic content generation and manipulation
-- Semantic HTML for improved accessibility and SEO
-- Responsive design for optimal viewing on various devices
-- Basic financial concepts such as assets, liabilities, and net worth
+<br/>
 
+[![Certification](https://img.shields.io/badge/Certification-Verified-27ae60?style=flat-square&logo=freecodecamp)](https://freecodecamp.org/certification/fcc964aaf79-d74f-4a73-a538-bead74ff9282/responsive-web-design)
+[![Projects](https://img.shields.io/badge/Projects-20%20Completed-2980b9?style=flat-square)](/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%20Compliant-16a085?style=flat-square)](/)
 
-# 2. Cafe Menu Project
+<br/>
 
-### Description:
-The Cafe Menu project is a simple web application that showcases the menu items available at Camper Cafe. It provides information on various coffee flavors and desserts offered by the cafe along with their prices.
+> *"Building accessible, responsive, and visually engaging web experiences*
+> *from first principles — one project at a time."*
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Image inclusion and alt text for accessibility
-- Linking to external resources
-- Responsive design for compatibility across different devices
+<br/>
 
+🔗 **[View Live Certification](https://freecodecamp.org/certification/fcc964aaf79-d74f-4a73-a538-bead74ff9282/responsive-web-design)**
 
-# 3. fCC Cat Painting Project
+<br/>
 
-### Description:
-The fCC Cat Painting project is a fun HTML and CSS project that creates a simple representation of a cat's face using basic shapes and styling techniques. It's a great exercise for practicing HTML structure and CSS styling.
+[Overview](#overview) &nbsp;•&nbsp; [Skills](#skills-demonstrated) &nbsp;•&nbsp; [Projects](#project-gallery) &nbsp;•&nbsp; [Certification Projects](#-certification-projects) &nbsp;•&nbsp; [Tech Stack](#tech-stack)
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Using CSS classes and IDs to target specific elements
-- Creating shapes and patterns using CSS
-- Basic design principles such as symmetry and alignment
+</div>
 
+---
 
-# 4. CatPhotoApp Project
+## Overview
 
-### Description:
-The CatPhotoApp project is a simple web page that showcases cat photos along with information about what cats love and hate, and a form to submit cat photos. It's a basic HTML project designed to practice HTML structure, linking, image embedding, and form handling.
+This repository contains all **20 projects** completed as part of the [freeCodeCamp Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) certification — one of the most widely recognized free web development curricula globally.
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- Linking to external resources
-- Embedding images with the `<img>` tag
-- Using lists (`<ul>` and `<ol>`) to organize information
-- Creating forms with the `<form>` tag and various form elements (`<input>`, `<fieldset>`, `<legend>`, `<label>`, `<button>`)
-- Basic form validation with the `required` attribute
+The curriculum builds competency progressively: from semantic HTML and CSS fundamentals, through layout systems (Flexbox, Grid), animations, accessibility, and culminating in five independently designed certification projects that demonstrate real-world frontend proficiency.
 
+Every project was built from scratch, applying industry-standard practices in semantic markup, visual design, responsive layout, and web accessibility (WCAG guidelines).
 
-# 5. City Skyline Project
+---
 
-### Description:
-The City Skyline project is a visual representation of a city skyline using basic HTML and CSS. It creates a simple skyline with buildings of different heights and styles. This project is a great exercise for practicing CSS positioning and creating visual effects.
+## Skills Demonstrated
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Creating and styling shapes and elements using CSS classes
-- Positioning elements using CSS properties like `position`, `top`, `left`, etc.
-- Using CSS pseudo-elements (`::before` and `::after`) for additional styling
+| Category | Skills |
+|----------|--------|
+| **HTML5** | Semantic structure, forms, accessibility attributes, ARIA roles, media embedding |
+| **CSS3** | Flexbox, Grid, animations, transitions, pseudo-elements, custom properties, media queries |
+| **Responsive Design** | Mobile-first layouts, fluid typography, viewport units, breakpoint strategy |
+| **Accessibility** | WCAG compliance, ARIA landmarks, keyboard navigation, screen reader compatibility |
+| **Visual Design** | Color theory, typography, spacing, visual hierarchy, layout composition |
+| **JavaScript** | DOM manipulation, dynamic content generation, event handling |
+| **Forms & Validation** | Input types, constraint validation, UX patterns for accessible data collection |
 
+---
 
-# 6. Colored Markers Project
+## Project Gallery
 
-### Description:
-The Colored Markers project is a simple demonstration of CSS styling to create markers with different colors. It uses basic HTML structure and CSS classes to create marker elements with caps and sleeves in different colors. This project is a good exercise for practicing CSS styling and creating visual effects.
+### 🎨 Design & Visual Projects
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Creating and styling elements using CSS classes
-- Using CSS for color manipulation and creating gradients or patterns
+---
 
+### 1. Balance Sheet
 
-# 7. Ferris Wheel Project
+> **Financial data table built with semantic HTML and accessible CSS.**
 
-### Description:
-The Ferris Wheel project is a simple representation of a Ferris wheel using basic HTML and CSS. It creates a Ferris wheel structure with cabins and lines using HTML spans and divs styled with CSS. This project is a good exercise for practicing CSS styling and creating visual effects.
+Generates and displays a multi-year balance sheet — assets, liabilities, and net worth — for a fictional company. Demonstrates structured tabular data presentation with JavaScript-driven dynamic content.
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Creating and styling elements using CSS classes
-- Using CSS for animation and creating rotating effects
+**Key Skills:** Semantic tables · CSS typography · JavaScript DOM manipulation · Accessible data tables
 
+---
 
-# 8. Magazine Project
+### 2. Cafe Menu
 
-### Description:
-The Magazine project is a static web page representing an online magazine article. It utilizes HTML for structure and CSS for styling to create an engaging layout with text, images, headings, and social icons. This project is a good exercise for practicing HTML layout and CSS styling techniques.
+> **Clean, styled menu layout for a fictional coffee shop.**
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Importing and using external fonts with Google Fonts
-- Incorporating Font Awesome icons for social media links
-- Creating responsive designs with media queries
+A visually appealing single-page menu featuring coffee flavors and desserts with prices. An exercise in CSS layout, image handling, and readable typographic hierarchy.
 
+**Key Skills:** CSS layout · Image accessibility (`alt` text) · External resource linking · Responsive styling
 
-# 9. Nutrition Label Project
+---
 
-### Description:
-The Nutrition Label project is a static web page representing a nutrition facts label commonly found on food packaging. It utilizes HTML for structure and CSS for styling to create a visually appealing and informative layout. This project is a good exercise for practicing HTML layout techniques and CSS styling for creating complex designs.
+### 3. Cat Painting
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Importing and using Google Fonts for custom typography
-- Creating and styling headers, paragraphs, and dividers
-- Implementing nested elements for detailed information display
-- Utilizing CSS classes for consistent styling across elements
+> **Pure CSS illustration — a cat face built using only geometric shapes.**
 
+A creative exercise in building a recognizable illustration using only HTML `div` elements and CSS — no images. Demonstrates deep understanding of CSS positioning, sizing, and visual layering.
 
-# 10. Penguin Project
+**Key Skills:** CSS shapes · `position` property · Class-based targeting · Design symmetry and alignment
 
-### Description:
-The Penguin project is a static web page featuring a cute penguin character created using HTML and CSS. It showcases various CSS techniques for styling and positioning elements to create an adorable penguin illustration. This project is ideal for practicing CSS skills and understanding how to design and implement complex visual layouts using HTML and CSS.
+---
 
-### Topics Covered:
-- HTML5 markup for structuring the content
-- CSS styling for visual presentation and layout
-- Creating and styling various shapes and elements using CSS
-- Positioning elements using CSS properties like `position`, `top`, `left`, etc.
-- Implementing animations and transitions using CSS
-- Utilizing CSS classes for consistent styling and organization of code
+### 4. CatPhotoApp
 
+> **Core HTML5 fundamentals — structure, images, links, and forms.**
 
-# 11. Photo Gallery Project
+A structured web page featuring image embedding, semantic lists, and a functional photo submission form. Focused on foundational HTML structure and proper document semantics.
 
-### Description:
-The Photo Gallery project is a simple web page showcasing a photo gallery created using HTML and CSS. It utilizes CSS Flexbox to create a responsive grid layout for displaying multiple images. This project is suitable for practicing Flexbox layout techniques and understanding how to create dynamic and visually appealing photo galleries using HTML and CSS.
+**Key Skills:** Semantic HTML5 · `<form>` elements · Input validation (`required`) · Image embedding with `<img>`
 
-### Topics Covered:
-- HTML markup for structuring the content
-- CSS styling for visual presentation and layout
-- Utilizing CSS Flexbox for creating responsive grid layouts
-- Implementing image tags (`<img>`) to display images
-- Creating a simple header using HTML heading tags
-- Linking an external CSS stylesheet to the HTML document
+---
 
+### 5. City Skyline
 
-# 12. Piano Project
+> **CSS art — a responsive cityscape built entirely without images.**
 
-### Description:
-The Piano project is a simple web page that simulates a piano keyboard using HTML and CSS. It features keys representing piano notes and includes both white and black keys. This project is suitable for practicing CSS styling and layout techniques, as well as understanding basic HTML structure.
+Buildings of varying heights and architectural styles constructed using only HTML and CSS. Demonstrates advanced CSS positioning and creative use of pseudo-elements for structural detail.
 
-### Topics Covered:
-- HTML markup for creating the piano keys
-- CSS styling for visual presentation and layout
-- Utilizing CSS classes to differentiate between white and black keys
-- Creating a simple logo using the `<img>` tag
-- Implementing a responsive design with the viewport meta tag
-
+**Key Skills:** CSS `::before` and `::after` · `position` property · CSS custom properties · Visual depth and layering
 
-# 13. Accessibility Quiz
+---
 
-### Description:
-The Accessibility Quiz project is a simple web-based quiz focusing on HTML and CSS topics, designed to practice creating accessible web forms. The project includes various form elements such as text inputs, radio buttons, select dropdowns, and textareas. It also demonstrates the use of semantic HTML elements and ARIA attributes to enhance accessibility.
-
-### Topics Covered:
-- Creating accessible forms using semantic HTML elements
-- Utilizing ARIA roles and attributes for accessibility
-- Structuring the quiz with appropriate headings and landmarks
-- Implementing input validation and required fields
-- Styling the form elements with CSS for visual presentation
-- Adding a responsive design with viewport meta tag
+### 6. Colored Markers
 
-### Additional Notes:
-- The project includes sections for student information, HTML questions, and CSS questions.
-- Each question includes a statement and two options for selection.
-- The form is submitted to a specified action URL upon completion.
-- The footer includes address information for freeCodeCamp.
+> **CSS color theory applied to styled marker components.**
 
+A visual study in CSS color techniques — gradients, linear color blending, and box shadows — applied to marker components with colored caps and sleeves. Explores the full range of CSS color tools.
 
-# 14. Registration Form
+**Key Skills:** CSS linear gradients · `box-shadow` · Color manipulation · Component-based class structure
 
-### Description:
-The Registration Form project is a basic web form designed to collect user registration information. It includes various form fields such as text inputs, email inputs, password inputs, radio buttons, file uploads, select dropdowns, checkboxes, and textareas. The project aims to demonstrate the creation of an accessible and user-friendly registration form using HTML and CSS.
+---
 
-### Topics Covered:
-- Creating form fields for user input (text, email, password, number, file, select, textarea)
-- Implementing input validation with required attribute, pattern attribute, min and max attributes
-- Using radio buttons for selecting account type
-- Providing a file upload option for profile picture
-- Including a select dropdown for selecting referrer source
-- Adding a checkbox for accepting terms and conditions
-- Styling the form for improved visual presentation using CSS
+### 7. Ferris Wheel
 
-### Additional Notes:
-- The form is submitted to a specified action URL upon completion.
-- A link to the terms and conditions is provided with the checkbox for acceptance.
-- The form layout is organized using fieldsets and legends for better accessibility and semantic structure.
+> **CSS animation — a fully rotating Ferris wheel with counter-rotating cabins.**
 
+A continuously animated Ferris wheel built using `@keyframes`. The wheel rotates while cabins counter-rotate to remain upright — a precisely engineered multi-element animation challenge.
 
-# 15. Rothko Painting
+**Key Skills:** CSS `@keyframes` · `animation` timing and delay · `transform: rotate()` · Synchronized animation chains
 
-### Description:
-The Rothko Painting project is a simple web page that mimics the abstract art style of Mark Rothko. It consists of a canvas with three colored rectangles arranged vertically. The project aims to replicate the minimalist and contemplative qualities often associated with Rothko's paintings using HTML and CSS.
+---
 
-### Topics Covered:
-- HTML structure for creating a canvas-like layout.
-- CSS styling for creating colored rectangles and arranging them in a specific layout.
-- CSS techniques for achieving a minimalist design aesthetic.
-- Understanding and applying principles of abstract art in web design.
-  
-### Key Features:
-- Three colored rectangles arranged vertically to resemble a Rothko-style painting.
-- Minimalist design to focus on the interplay of colors and their emotional impact.
+### 8. Magazine Layout
 
-### Additional Notes:
-- The project serves as a basic example of creating abstract art using HTML and CSS.
-- Colors and dimensions can be adjusted in the CSS file to create variations of the painting.
-- The project can be extended with additional elements or interactive features to enhance the user experience.
+> **Editorial multi-column layout inspired by modern online publications.**
 
+A long-form article page using CSS Grid for editorial layout, Google Fonts for refined typography, Font Awesome for social icons, and responsive breakpoints for cross-device adaptability.
 
-## Certification Projects
-# 16. Product Landing Page
+**Key Skills:** CSS Grid · Google Fonts · Font Awesome · Responsive media queries · Editorial information hierarchy
 
-### Description
-The Product Landing Page is a web page designed to showcase handcrafted, home-made masterpieces, particularly trombones. It features information about premium materials, fast shipping, and quality assurance. The landing page also includes a video demonstrating how the product works and a pricing section with options for different types of trombones.
+---
 
-### Topics Covered
-- Logo design and placement
-- Navigation bar implementation
-- Hero section with email subscription form
-- Feature highlights with icons
-- Embedded video section
-- Pricing section with product details
-- Footer section with links
+### 9. Nutrition Label
 
-### Key Features
-- **Logo:** A logo is displayed at the top of the page.
-- **Navigation:** A navigation bar allows users to navigate to different sections of the page.
-- **Hero Section:** Introduces the product with a headline and an email subscription form.
-- **Features Section:** Highlights the premium materials, fast shipping, and quality assurance of the product.
-- **How It Works Section:** Includes a video demonstrating how the product works.
-- **Pricing Section:** Displays the pricing and features of different types of trombones.
-- **Footer:** Provides links to privacy, terms, and contact pages.
-
-
-# 17. Survey Form
-
-### Description
-This Survey Form is designed to collect personal information from users for feedback and engagement purposes. It is a comprehensive form that includes various types of inputs like text, email, number, radio buttons, checkboxes, and dropdown menus.
-
-### Topics Covered
-- HTML Forms: Implementation of a form to collect user inputs.
-- Input Types: Usage of different types of inputs such as `text`, `email`, `number`, `radio`, `checkbox`, and `select`.
-- Form Elements: Incorporation of `label`, `input`, `select`, `option`, `textarea`, and `button` elements.
-- Responsiveness: Designing forms that are responsive and accessible across various devices.
-- User Interaction: Techniques for gathering user feedback through multiple choice questions, text inputs, and other form elements.
-- Data Collection: Strategies for organizing and structuring forms for effective data collection.
-
-### Key Features
-- **Personal Information**: Collects name, email, and age.
-- **User Engagement**: Queries about the current role, recommendations, favorite features, improvements, and additional comments.
-- **Interactive Elements**: Utilizes dropdowns, radio buttons, and checkboxes for interactive and engaging user input.
-- **Accessibility**: Ensures the form is accessible and user-friendly.
-
-
-# 18. Tribute Page - Dr. Norman Borlaug
-
-### Description
-This project is a tribute page dedicated to Dr. Norman Borlaug, a figure renowned for his contributions to agriculture and efforts to end world hunger. The page features a brief biography, significant achievements, and a timeline of Dr. Borlaug's life, celebrating his legacy as "The man who saved a billion lives."
-
-### Implementation
-
-- HTML elements like `<div>`, `<figure>`, `<figcaption>`, and `<blockquote>` are used to structure the content.
-- The page is styled with CSS, linked externally through a `<link>` tag in the `<head>`.
-- Responsive design principles ensure the page is accessible on various devices.
-
-### Topics Covered
-
-- **HTML Structure**: Demonstrates the use of semantic HTML elements to organize content.
-- **CSS Styling**: Showcases basic styling to enhance the visual appeal of the webpage.
-- **Responsive Design**: Ensures the webpage is accessible and visually appealing across different screen sizes.
-- **External Resources**: Implements an external link to provide additional information, enhancing the educational value of the page.
-
-### Key Features
-
-- **Hero Section**: Presents a title and a subtitle that highlights Dr. Borlaug's major achievement.
-- **Image with Caption**: A photograph of Dr. Borlaug is showcased along with a caption detailing a moment from his work.
-- **Biographical Timeline**: An informative timeline lists key events and milestones in Dr. Borlaug's life and career.
-- **Inspirational Quote**: A blockquote captures a powerful and inspiring quote attributed to Dr. Borlaug.
-- **External Link**: A footer section includes a link to Dr. Borlaug's Wikipedia page for readers interested in learning more about his life and work.
-
-
-# 19. JavaScript ES6+ Technical Documentation Page
-
-### Description:
-This project is a technical documentation page aimed at providing comprehensive information about JavaScript ES6+ features and concepts. It serves as a resource for developers who want to learn about the latest enhancements and best practices in JavaScript programming. The documentation covers various topics including variable declaration, data types, control flow statements, functions, and more.
-
-### Topics Covered:
-- Introduction
-- What you should already know
-- JavaScript and Java
-- Hello world
-- Variables
-  - Declaring variables
-  - Variable scope
-  - Global variables
-  - Constants
-- Data types
-- if...else statement
-- while statement
-- Function declarations
-- Reference and more...
-
-
-# 20. Personal Portfolio Webpage (In Progress)(Pending)
-
-### Description:
-This project is a personal portfolio webpage aimed at showcasing the skills, projects, and experiences of an individual. It serves as an online resume and portfolio for professionals, students, or anyone looking to display their work to potential employers or clients.
-
-### Sections:
-- About Me
-- Skills
-- Projects
-- Experience
-- Education
-- Contact
-
-### Features:
-- Responsive design for various screen sizes (mobile-friendly)
-- Interactive elements such as buttons, navigation bars, and scroll animations
-- Integration of social media links and contact forms
-- Dynamic content updates for easy maintenance and scalability
-
-### Technologies Used:
-- HTML5
-- CSS3 (including Flexbox or Grid for layout)
-- JavaScript (for interactive features if needed)
-- Optional: Frameworks or libraries like Bootstrap, React.js or jQuery for rapid development
-
-### Design Elements:
-- Clean and modern layout
-- Consistent color scheme and typography
-- Clear navigation structure for easy access to different sections
-- Visual hierarchy to highlight important information
-- Use of images or icons to enhance visual appeal and convey information effectively
-
-### Deployment:
-- Hosting options such as GitHub Pages, Netlify, or Heroku
-- Domain registration for a personalized URL (optional)
+> **Pixel-accurate FDA nutrition facts label recreated in HTML and CSS.**
+
+A precision project replicating the standardized nutrition label found on food packaging. Demands meticulous attention to CSS typography, border styling, spacing control, and deeply nested element structure.
+
+**Key Skills:** CSS typography · Borders and dividers · Nested element hierarchy · `font-weight` and `font-size` precision
+
+---
+
+### 10. Penguin
+
+> **Complex CSS character illustration with hover-triggered animation.**
+
+An expressive penguin character assembled using CSS shapes, gradients, and positional layering — with hover-triggered scale animation for interactive engagement.
+
+**Key Skills:** CSS `transform` and `transition` · Hover state animations · Complex `z-index` management · Shape composition
+
+---
+
+### 11. Photo Gallery
+
+> **Responsive image grid using CSS Flexbox — no framework required.**
+
+A clean, adaptive photo gallery that reflows gracefully across screen sizes using only Flexbox. Demonstrates modern responsive layout achieved without any external library or framework.
+
+**Key Skills:** CSS Flexbox · `flex-wrap` · `gap` · Responsive image sizing · External stylesheet architecture
+
+---
+
+### 12. Piano
+
+> **Interactive piano keyboard UI styled with HTML and CSS.**
+
+A full octave piano keyboard with white and black keys, built using structured HTML and CSS class differentiation. Demonstrates component-based UI design and proportional visual layout.
+
+**Key Skills:** CSS layout and proportions · Class-based key differentiation · Responsive viewport meta · `z-index` for key overlap
+
+---
+
+### ♿ Accessibility-Focused Projects
+
+---
+
+### 13. Accessibility Quiz
+
+> **WCAG-compliant web form with full ARIA implementation.**
+
+A multi-section quiz on HTML and CSS concepts, designed with accessibility as the primary constraint. Proper ARIA roles, semantic form landmarks, required field labeling, and keyboard navigability throughout.
+
+**Key Skills:** ARIA roles and `aria-labelledby` · Semantic form elements · Input validation · Accessible landmark structure
+
+---
+
+### 14. Registration Form
+
+> **Production-quality accessible registration form with comprehensive validation.**
+
+A complete user registration flow covering personal information, account type, preferences, file upload, and terms acceptance. Implements all major HTML5 input types with proper validation and screen-reader-compatible labeling.
+
+**Key Skills:** All HTML5 input types · `pattern` · `min` / `max` · `fieldset` and `legend` accessibility structure · File upload · Checkbox and radio UX
+
+---
+
+### 🖼️ Creative Art Projects
+
+---
+
+### 15. Rothko Painting
+
+> **Abstract CSS art inspired by Mark Rothko's color field paintings.**
+
+Three carefully proportioned rectangles with blurred edges and deliberate color relationships — a minimal recreation of Rothko's meditative painting style using only the CSS box model.
+
+**Key Skills:** CSS `border-radius` · `filter: blur()` · Box model mastery · Color harmony · Minimalist design principles
+
+---
+
+## 🏆 Certification Projects
+
+The following five projects were independently designed and built to satisfy freeCodeCamp's official certification requirements. Each was submitted against an automated test suite of defined user story specifications.
+
+---
+
+### 16. Product Landing Page
+
+**Brief:** Design and build a complete product landing page for a fictional brand from scratch.
+
+A fully structured marketing page for a handcrafted trombone company — fixed navigation, hero section with email capture, feature highlights, embedded product video, tiered pricing, and complete footer.
+
+| Section | Implementation Detail |
+|---------|----------------------|
+| Fixed navigation bar | `position: fixed` with smooth scroll anchor links |
+| Hero with email form | HTML `<form>` with `type="email"` and `required` validation |
+| Embedded product video | `<iframe>` inside a responsive aspect-ratio CSS wrapper |
+| Feature highlights | Icon + heading + description card layout via Flexbox |
+| Pricing cards | Three-column card layout with visual hierarchy and CTAs |
+| Full responsiveness | Media queries for mobile, tablet, and desktop breakpoints |
+
+**Demonstrates:** End-to-end landing page architecture · Conversion-focused layout design · Mobile-first responsive marketing page
+
+---
+
+### 17. Survey Form
+
+**Brief:** Build an accessible, structured data collection form for user feedback.
+
+A comprehensive engagement survey covering personal information, professional role, feature preferences, and open-ended commentary. Designed for clarity, accessibility, and friction-free completion on any device.
+
+| Element | Implementation Detail |
+|---------|----------------------|
+| Input variety | `text`, `email`, `number`, `radio`, `checkbox`, `select`, `textarea` |
+| Validation | `required`, `min`, `max`, `placeholder` on all relevant fields |
+| Accessible labels | Every input paired with a visible `<label>` using `for`/`id` |
+| Grouping | Related fields wrapped in `<fieldset>` with `<legend>` descriptors |
+| Responsive layout | Fluid single-column form adapting to all screen sizes |
+
+**Demonstrates:** Accessible form architecture · Input validation strategy · User-centric form UX
+
+---
+
+### 18. Tribute Page — Dr. Norman Borlaug
+
+**Brief:** Build an informative tribute page for a person of historical or cultural significance.
+
+A respectful, well-structured tribute to Dr. Norman Borlaug — agricultural scientist, Nobel Peace Prize laureate, and the man credited with saving over a billion lives through the Green Revolution. Features a biographical timeline, portrait, inspirational quote, and cited external reference.
+
+| Feature | Implementation Detail |
+|---------|----------------------|
+| Semantic structure | `<figure>`, `<figcaption>`, `<blockquote>`, `<time>` used throughout |
+| Biographical timeline | Chronological `<ol>` with dated milestones spanning 1914–2009 |
+| Responsive portrait | `max-width: 100%` fluid image with accessible `alt` description |
+| Inspirational quote | Styled `<blockquote>` with attribution |
+| External reference | Verified Wikipedia link in `<footer>` for further reading |
+
+**Demonstrates:** Semantic HTML storytelling · Accessible content structure · Information hierarchy and typographic rhythm
+
+---
+
+### 19. JavaScript ES6+ Technical Documentation Page
+
+**Brief:** Build a navigable, multi-section technical reference documentation page.
+
+A comprehensive documentation resource covering JavaScript ES6+ — variable declaration, scope, data types, control flow, functions, and modern JS patterns. Features a fixed sidebar for rapid section access and responsive collapse on small screens.
+
+| Feature | Implementation Detail |
+|---------|----------------------|
+| Fixed sidebar navigation | `position: fixed` with anchor links; highlights active section |
+| Semantic document structure | `<nav>`, `<main>`, `<section>`, `<article>` throughout |
+| Code presentation | `<code>` inline and `<pre><code>` blocks with monospace formatting |
+| Responsive behavior | Sidebar collapses to a top navigation bar on mobile screens |
+
+**Topics covered:** Variable declaration · Scope (`var`, `let`, `const`) · Data types · `if...else` · `while` loops · Function declarations · Arrow functions · ES6+ modern patterns
+
+**Demonstrates:** Technical writing and content structuring · Multi-section navigation architecture · Code documentation UX
+
+---
+
+### 20. Personal Portfolio Webpage *(In Progress)*
+
+**Brief:** Design and build a professional portfolio page to showcase skills, projects, and experience.
+
+A personal portfolio webpage serving as an interactive online resume and project showcase for potential employers and international clients.
+
+| Section | Content |
+|---------|---------|
+| About Me | Professional introduction and personal brand statement |
+| Skills | Technology stack with visual proficiency indicators |
+| Projects | Featured work with live demo and repository links |
+| Experience | Career timeline and key professional achievements |
+| Education | Certifications, courses, and academic background |
+| Contact | Accessible contact form and professional profile links |
+
+**Planned stack:** HTML5 · CSS3 (Grid + Flexbox) · JavaScript · Optional: React.js · Deployment: GitHub Pages / Netlify
+
+> **Status:** `🔄 In Progress` — actively under development
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+| Technology | Usage in This Certification | Level |
+|-----------|---------------------------|-------|
+| **HTML5** | Structure, semantic markup, forms, accessibility | Advanced |
+| **CSS3** | Styling, layout, animation, responsive design | Advanced |
+| **CSS Flexbox** | One-dimensional responsive layouts | Advanced |
+| **CSS Grid** | Two-dimensional complex editorial layouts | Advanced |
+| **CSS Animations** | `@keyframes`, transitions, transforms | Proficient |
+| **JavaScript** | DOM manipulation, dynamic content | Intermediate |
+| **ARIA / WCAG** | Accessibility attributes and compliance | Proficient |
+| **Responsive Design** | Media queries, mobile-first, fluid layouts | Advanced |
+
+</div>
+
+---
+
+## Certification Details
+
+<div align="center">
+
+| Field | Detail |
+|-------|--------|
+| **Issued by** | freeCodeCamp |
+| **Certification name** | Responsive Web Design |
+| **Total projects** | 20 of 20 completed |
+| **Certification projects** | 5 independently designed and tested |
+| **Status** | ✅ Fully Certified |
+| **Verification** | [View Certificate →](https://freecodecamp.org/certification/fcc964aaf79-d74f-4a73-a538-bead74ff9282/responsive-web-design) |
+
+</div>
+
+---
+
+## What This Certification Proves
+
+The freeCodeCamp Responsive Web Design certification is globally recognized and demonstrates practical competency in:
+
+- **Semantic HTML5** — writing meaningful, accessible markup that both humans and machines understand clearly
+- **Modern CSS** — mastery of layout, animation, and responsive techniques actively used in production today
+- **Accessibility** — building for everyone, including users of assistive technologies, in compliance with WCAG 2.1
+- **Responsive design** — interfaces that function flawlessly from 320px mobile screens to 4K displays
+- **Visual design fundamentals** — color, typography, spacing, hierarchy, and purposeful composition
+- **Project delivery** — five independently scoped and built projects meeting defined technical specifications
+
+---
+
+## Repository Structure
+
+```
+responsive-web-design-certification/
+│
+├── 01-balance-sheet/
+├── 02-cafe-menu/
+├── 03-cat-painting/
+├── 04-cat-photo-app/
+├── 05-city-skyline/
+├── 06-colored-markers/
+├── 07-ferris-wheel/
+├── 08-magazine/
+├── 09-nutrition-label/
+├── 10-penguin/
+├── 11-photo-gallery/
+├── 12-piano/
+├── 13-accessibility-quiz/
+├── 14-registration-form/
+├── 15-rothko-painting/
+│
+├── 16-product-landing-page/       ← Certification Project
+├── 17-survey-form/                ← Certification Project
+├── 18-tribute-page/               ← Certification Project
+├── 19-technical-documentation/    ← Certification Project
+├── 20-personal-portfolio/         ← Certification Project (In Progress)
+│
+└── README.md
+```
+
+Each folder contains an `index.html` and `styles.css`. Projects are self-contained with no build tools, package managers, or external dependencies.
+
+---
+
+## Running Locally
+
+```bash
+# Clone this repository
+git clone https://github.com/your-username/responsive-web-design-certification.git
+
+# Open any project directly in your browser
+cd responsive-web-design-certification/01-balance-sheet
+open index.html
+
+# Recommended: use VS Code Live Server extension for live reload during development
+```
+
+---
+
+## Connect With Me
+
+<div align="center">
+
+I am actively open to frontend development roles, freelance projects, and international collaborations.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/narendra-koya)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NarendraKoya999)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-ff6b6b?style=flat-square&logo=vercel&logoColor=white)](https://your-portfolio-url.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D44638?style=flat-square&logo=gmail&logoColor=white)](mailto:narendra.koya.in@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+**Built from scratch · Certified · Production-standard code**
+
+*Every project in this repository was written by hand — no templates, no code generators.*
+*It reflects a commitment to understanding the web platform from first principles.*
+
+<br/>
+
+⭐ If this work resonated with you, a star on the repository is always appreciated.
+
+</div>
