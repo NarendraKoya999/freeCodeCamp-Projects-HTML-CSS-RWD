@@ -410,10 +410,10 @@ Each folder contains an `index.html` and `styles.css`. Projects are self-contain
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/responsive-web-design-certification.git
+git clone https://github.com/NarendraKoya999/freeCodeCamp-Projects-HTML-CSS-RWD.git
 
 # Open any project directly in your browser
-cd responsive-web-design-certification/01-balance-sheet
+cd freeCodeCamp-Projects-HTML-CSS-RWD/Build a Survey Form
 open index.html
 
 # Recommended: use VS Code Live Server extension for live reload during development
