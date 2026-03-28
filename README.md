@@ -430,8 +430,7 @@ I am actively open to frontend development roles, freelance projects, and intern
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/narendra-koya)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NarendraKoya999)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-ff6b6b?style=flat-square&logo=vercel&logoColor=white)](https://narendrakoya999.github.io/Personal-Portfolio-Website/)
-[![Email](https://img.shields.io/badge/Email-Contact-D44638?style=flat-square&logo=gmail&logoColor=white)](mailto:narendra.koya.in@gmail.com)
-
+[![Email](https://img.shields.io/badge/Email-Contact-D44638?style=flat-square&logo=gmail&logoColor=white)](https://tinyurl.com/2rmzb8xa)
 </div>
 
 ---
